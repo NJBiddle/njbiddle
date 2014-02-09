@@ -4,7 +4,7 @@
   <title><![CDATA[NJBiddle]]></title>
   <link href="http://njbiddle.com/atom.xml" rel="self"/>
   <link href="http://njbiddle.com/"/>
-  <updated>2014-02-09T12:46:19-06:00</updated>
+  <updated>2014-02-09T16:55:57-06:00</updated>
   <id>http://njbiddle.com/</id>
   <author>
     <name><![CDATA[NJBiddle]]></name>
@@ -12,14 +12,5 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[Hello World!]]></title>
-    <link href="http://njbiddle.com/blog/2014/02/08/hello-world/"/>
-    <updated>2014-02-08T17:06:15-06:00</updated>
-    <id>http://njbiddle.com/blog/2014/02/08/hello-world</id>
-    <content type="html"><![CDATA[<p>Hello world!</p>
-]]></content>
-  </entry>
   
 </feed>

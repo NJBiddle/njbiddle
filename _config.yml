@@ -4,7 +4,7 @@
 
 url: http://njbiddle.com
 title: NJBiddle
-subtitle: I like to make
+subtitle:
 author: NJBiddle
 simple_search: http://google.com/search
 description:
@@ -16,7 +16,7 @@ description:
 date_format: "ordinal"
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
-subscribe_rss: /atom.xml
+subscribe_rss:
 subscribe_email:
 # RSS feeds can list your email address if you like
 email: nick@njbiddle.com
@@ -71,7 +71,7 @@ github_skip_forks: true
 # Twitter
 twitter_user: NJBiddle
 twitter_tweet_button: true
-
+twitter_tweet_count: 1
 # Google +1
 google_plus_one: false
 google_plus_one_size: medium
