@@ -1,12 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
+        <loc>http://njbiddle.com/blog/2014/02/09/geektool/</loc>
+        <lastmod>2014-02-09T17:50:06-06:00</lastmod>
+    </url>
+    <url>
         <loc>http://njbiddle.com/about/</loc>
         <lastmod>2014-02-09T12:43:28-06:00</lastmod>
     </url>
     <url>
         <loc>http://njbiddle.com/blog/archives/</loc>
-        <lastmod>2014-02-09T12:06:06-06:00</lastmod>
+        <lastmod>2014-02-09T17:50:06-06:00</lastmod>
     </url>
     <url>
         <loc>http://njbiddle.com/blog/categories/</loc>
@@ -14,7 +18,7 @@
     </url>
     <url>
         <loc>http://njbiddle.com/</loc>
-        <lastmod>2014-02-09T12:06:06-06:00</lastmod>
+        <lastmod>2014-02-09T17:50:06-06:00</lastmod>
     </url>
     <url>
         <loc>http://njbiddle.com/resume/</loc>

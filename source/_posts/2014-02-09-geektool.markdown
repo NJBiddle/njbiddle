@@ -1,0 +1,19 @@
+---
+layout: post
+title: "Tools I use: Geektool"
+date: 2014-02-09 17:31:34 -0600
+comments: true
+categories: geekery, workflow, design
+---
+[idgeektool]: http://projects.tynsoe.org/en/geektool/
+I recently got into using [geektool][idgeektool] again. It's great.
+
+![Geektool!](/images/geektool/geektool.png)
+<!-- more -->
+1. Download and install [geektool][idgeektool]
+[idhere]: http://www.macosxtips.co.uk/geeklets/
+2. Get fun geeklet scripts [here][idhere]
+3. Load into geektool and party
+
+![Geektool Geeklets](/images/geektool/geektool2.png)
+

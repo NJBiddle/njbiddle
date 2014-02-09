@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[NJBiddle]]></title>
-  <link href="http://njbiddle.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Design | NJBiddle]]></title>
+  <link href="http://njbiddle.com/blog/categories/design/atom.xml" rel="self"/>
   <link href="http://njbiddle.com/"/>
   <updated>2014-02-09T17:50:27-06:00</updated>
   <id>http://njbiddle.com/</id>
@@ -14,13 +14,13 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Tools I use: Geektool]]></title>
+    <title type="html"><![CDATA[Tools I Use: Geektool]]></title>
     <link href="http://njbiddle.com/blog/2014/02/09/geektool/"/>
     <updated>2014-02-09T17:31:34-06:00</updated>
     <id>http://njbiddle.com/blog/2014/02/09/geektool</id>
     <content type="html"><![CDATA[<p>I recently got into using <a href="http://projects.tynsoe.org/en/geektool/">geektool</a> again. It&rsquo;s great.</p>
 
-<p><img src="http://njbiddle.com/images/geektool/geektool.png" alt="Geektool!" /></p>
+<p><img src="/images/geektool/geektool.png" alt="Geektool!" /></p>
 
 <!-- more -->
 
@@ -32,7 +32,7 @@
 </ol>
 
 
-<p><img src="http://njbiddle.com/images/geektool/geektool2.png" alt="Geektool Geeklets" /></p>
+<p><img src="/images/geektool/geektool2.png" alt="Geektool Geeklets" /></p>
 ]]></content>
   </entry>
   
