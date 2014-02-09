@@ -10,4 +10,5 @@ footer: true
 I'm Nick. I like the internet, learning new skills, and coffee.
 
 [id]: mailto:nick@njbiddle.com "email me!"
-If you think I can do something for you, [drop me a line][id]. 
+[id2]: {{ root_url }}/resume "my resume"
+If you think I can do something for you, [drop me a line][id] or check out [my resume][id2]
