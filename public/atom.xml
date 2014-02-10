@@ -4,7 +4,7 @@
   <title><![CDATA[NJBiddle]]></title>
   <link href="http://njbiddle.com/atom.xml" rel="self"/>
   <link href="http://njbiddle.com/"/>
-  <updated>2014-02-09T17:50:27-06:00</updated>
+  <updated>2014-02-09T18:08:43-06:00</updated>
   <id>http://njbiddle.com/</id>
   <author>
     <name><![CDATA[NJBiddle]]></name>
@@ -12,6 +12,30 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Tools I use: Alfred]]></title>
+    <link href="http://njbiddle.com/blog/2014/02/09/alfred/"/>
+    <updated>2014-02-09T17:59:02-06:00</updated>
+    <id>http://njbiddle.com/blog/2014/02/09/alfred</id>
+    <content type="html"><![CDATA[<p>If you haven&rsquo;t used productivity apps like <a href="http://qsapp.com/">Quicksilver</a>, <a href="http://cooperteam.net/">GnomeDO</a>, etc, you need to start.</p>
+
+<br>
+
+
+<p><img src="http://njbiddle.com/images/alfred/alfred.png" alt="Alfred" /></p>
+
+<!--more-->
+
+
+<p>I rely on <a href="http://www.alfredapp.com/">Alfred</a> to get around my machine quickly and efficiently. Alfred is much more than a simple app launcher. Dig in and experience some of it&rsquo;s more advanced features for yourself!</p>
+
+<br>
+
+
+<p><img src="http://njbiddle.com/images/alfred/alfred2.png" alt="Alfred file browser" /></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Tools I use: Geektool]]></title>

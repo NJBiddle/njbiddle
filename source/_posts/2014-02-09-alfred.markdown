@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Tools I use: Alfred"
+date: 2014-02-09 17:59:02 -0600
+comments: true
+categories: geekery, workflow
+---
+[idquick]: http://qsapp.com/
+[idgnome]: http://cooperteam.net/
+[idalfred]: http://www.alfredapp.com/
+If you haven't used productivity apps like [Quicksilver][idquick], [GnomeDO][idgnome], etc, you need to start.
+<br>
+![Alfred](/images/alfred/alfred.png)
+<!--more-->
+I rely on [Alfred][idalfred] to get around my machine quickly and efficiently. Alfred is much more than a simple app launcher. Dig in and experience some of it's more advanced features for yourself!
+<br>
+![Alfred file browser](/images/alfred/alfred2.png)
