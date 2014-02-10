@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: It | NJBiddle]]></title>
+  <title><![CDATA[Category: It, | NJBiddle]]></title>
   <link href="http://njbiddle.com/blog/categories/it/atom.xml" rel="self"/>
   <link href="http://njbiddle.com/"/>
-  <updated>2014-02-09T19:52:07-06:00</updated>
+  <updated>2014-02-10T14:26:36-06:00</updated>
   <id>http://njbiddle.com/</id>
   <author>
     <name><![CDATA[NJBiddle]]></name>
@@ -14,16 +14,16 @@
 
   
   <entry>
-    <title type="html"><![CDATA[OSX Virtual Machine]]></title>
-    <link href="http://njbiddle.com/blog/2014/02/09/osx-virtual-machine/"/>
-    <updated>2014-02-09T19:03:17-06:00</updated>
-    <id>http://njbiddle.com/blog/2014/02/09/osx-virtual-machine</id>
-    <content type="html"><![CDATA[<p>Using a spare machine, I&rsquo;ve successfully set up a headless OSX VM on intel-based hardware. It&rsquo;s relatively under-powered, but serves my needs as a small file server and iTunes box.</p>
+    <title type="html"><![CDATA[Windows 8.1 on VirtualBox]]></title>
+    <link href="http://njbiddle.com/blog/2014/02/10/windows-8-dot-1-on-virtualbox/"/>
+    <updated>2014-02-10T14:11:32-06:00</updated>
+    <id>http://njbiddle.com/blog/2014/02/10/windows-8-dot-1-on-virtualbox</id>
+    <content type="html"><![CDATA[<p>Running multiple environments is critical for me both in IT and web development. I&rsquo;m currently using <a href="http://virtualbox.org">virtualbox</a> on my Mac to virtualize a windows 8.1 environment (I know, I know&hellip;). Click through for a quick walkthrough.</p>
 
 <br>
 
 
-<p><img src="/images/osxvm/osxvm4.png" alt="OSX VM" /></p>
+<p><img src="/images/win8vm/win8vm4.png" alt="Win 8.1 VM" /></p>
 
 <br>
 
@@ -31,33 +31,40 @@
 <!--more-->
 
 
-<p>This was accomplished by running <a href="http://vmwarelearning.com/esxi/">ESXi5.1</a> patched with <a href="http://www.insanelymac.com/forum/topic/267296-esxi-5-mac-os-x-unlocker/">Donk&rsquo;s OSX unlocker</a>. After patching, you&rsquo;ll need to upload the OSX installation .dmg and boot to ISO.</p>
+<p>I&rsquo;m using virtualbox over more popular alternatives such as VMWare Fusion and Parallels because of it&rsquo;s opensource nature and more technical community background. Windows 8.1 takes a little bit more time to configure, but it installs the same as any other VM.</p>
 
 <br>
 
 
-<p><img src="/images/osxvm/osxvm2.png" alt="OSX VM2" /></p>
+<p><img src="/images/win8vm/win8vm.png" alt="win 8.1 vm settings" /></p>
 
 <br>
 
-
-<p>Install OSX to your assigned datastore and your VM should boot right up. Originally I did this install with osx 10.8, but have since updated to 10.9 Mavericks. For the upgrade:</p>
 
 <ol>
-<li>Snapshot the VM</li>
-<li>Run the upgrade as normal</li>
-<li>Reboot when prompted</li>
-<li>Success!</li>
-<li>Remove that snapshot</li>
+<li>Create a new VM shell, be sure to select your correct distro and x86 vs x64</li>
+<li>Boot to your ISO, PXE, disk, etc</li>
+<li>Install like normal</li>
+<li>Attempt to boot</li>
 </ol>
 
 
-<p>Assign USB devices, more ram, cores, etc for added functionality and performance.</p>
+<p>If you&rsquo;re having difficulties booting, check your storage controller and chipset config. I had trouble creating a SATA controller and booting to network (PXE boot), so I had to use an IDE virtual disk.</p>
 
 <br>
 
 
-<p><img src="/images/osxvm/osxvm3.png" alt="OSX VM3" /></p>
+<p><img src="/images/win8vm/win8vm2.png" alt="controller settings" /></p>
+
+<br>
+
+
+<p>Assign RAM and cpu appropriately, and select ICH9 chipset if you have issues.</p>
+
+<br>
+
+
+<p><img src="/images/win8vm/win8vm3.png" alt="chipset settings" /></p>
 
 <br>
 
