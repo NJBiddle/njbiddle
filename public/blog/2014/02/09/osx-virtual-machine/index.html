@@ -5,11 +5,11 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Category: geekery - NJBiddle</title>
+	<title>OSX Virtual Machine - NJBiddle</title>
 	<meta name="author" content="NJBiddle">
 
 	
-	<meta name="description" content="Category: geekery">
+	<meta name="description" content="OSX Virtual Machine Using a spare machine, I&rsquo;ve successfully set up a headless OSX VM on intel-based hardware. It&rsquo;s relatively under- &hellip;">
 	
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +19,7 @@
 
 	<link href="" rel="alternate" title="NJBiddle" type="application/atom+xml">
 	
-	<link rel="canonical" href="http://njbiddle.comblog/categories/geekery/">
+	<link rel="canonical" href="http://njbiddle.com/blog/2014/02/09/osx-virtual-machine/">
 	<link href="/favicon.png" rel="shortcut icon">
 	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
 	<link href="/stylesheets/font-awesome.min.css" media="screen, projection" rel="stylesheet" type="text/css">
@@ -112,29 +112,67 @@
 
 			
 			<div class="mid-col-container">
-				<div id="content" class="inner">
-	
+				<div id="content" class="inner"><article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+	<h1 class="title" itemprop="name">OSX Virtual Machine</h1>
+	<div class="entry-content" itemprop="articleBody"><p>Using a spare machine, I&rsquo;ve successfully set up a headless OSX VM on intel-based hardware. It&rsquo;s relatively under-powered, but serves my needs as a small file server and iTunes box.</p>
+
+<br>
 
 
-	
-	
-	<section class="archives"><h1 class="year">2014</h1>
+<p><img src="/images/osxvm/osxvm4.png" alt="OSX VM" /></p>
 
-<article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-	<div class="meta">
-		<span class="date"><time datetime="2014-02-09T19:03:17-06:00" itemprop="datePublished">Feb  9</time></span>
-		<br>
-		<span class="tags">
+<br>
 
 
-	<a class='category' href='/blog/categories/it/'>IT,</a>, <a class='category' href='/blog/categories/geekery/'>geekery</a>
+<!--more-->
 
 
-</span>
-	    
-	</div>
-	<h1 class="title" itemprop="name"><a href="/blog/2014/02/09/osx-virtual-machine/">OSX Virtual Machine</a></h1>
+<p>This was accomplished by running <a href="http://vmwarelearning.com/esxi/">ESXi5.1</a> patched with <a href="http://www.insanelymac.com/forum/topic/267296-esxi-5-mac-os-x-unlocker/">Donk&rsquo;s OSX unlocker</a>. After patching, you&rsquo;ll need to upload the OSX installation .dmg and boot to ISO.</p>
+
+<br>
+
+
+<p><img src="/images/osxvm/osxvm2.png" alt="OSX VM2" /></p>
+
+<br>
+
+
+<p>Install OSX to your assigned datastore and your VM should boot right up. Originally I did this install with osx 10.8, but have since updated to 10.9 Mavericks. For the upgrade:</p>
+
+<ol>
+<li>Snapshot the VM</li>
+<li>Run the upgrade as normal</li>
+<li>Reboot when prompted</li>
+<li>Success!</li>
+<li>Remove that snapshot</li>
+</ol>
+
+
+<p>Assign USB devices, more ram, cores, etc for added functionality and performance.</p>
+
+<br>
+
+
+<p><img src="/images/osxvm/osxvm3.png" alt="OSX VM3" /></p>
+
+<br>
+
+</div>
+
 </article>
+
+	<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
+	
+	
+	<a class="addthis_button_tweet"></a>
+	
+	
+	<a class="addthis_counter addthis_pill_style"></a>
+	</div>
+  <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid="></script>
+</div>
+
 
 </div>
 			</div>
