@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Design | NJBiddle]]></title>
   <link href="http://njbiddle.com/blog/categories/design/atom.xml" rel="self"/>
   <link href="http://njbiddle.com/"/>
-  <updated>2014-02-09T18:42:58-06:00</updated>
+  <updated>2014-02-09T18:45:41-06:00</updated>
   <id>http://njbiddle.com/</id>
   <author>
     <name><![CDATA[NJBiddle]]></name>
@@ -18,17 +18,28 @@
     <link href="http://njbiddle.com/blog/2014/02/09/methdad-site-build/"/>
     <updated>2014-02-09T18:36:02-06:00</updated>
     <id>http://njbiddle.com/blog/2014/02/09/methdad-site-build</id>
-    <content type="html"><![CDATA[<p>Designed by cool-guy <a href="http://dannymcclain.tumblr.com/">Danny McClain</a>, we made this site as a quick one-pager mega-scroller to promote Tyler Walker&rsquo;s solo project, <a href="https://soundcloud.com/methdad/">Meth Dad</a>.</p>
+    <content type="html"><![CDATA[<p>Designed by cool guy <a href="http://dannymcclain.tumblr.com/">Danny McClain</a>, we made this site as a quick one-pager mega-scroller to promote Tyler Walker&rsquo;s solo project, <a href="https://soundcloud.com/methdad/">Meth Dad</a>.</p>
 
 <br>
 
 
-<p><img src="/images/methdad/methdad1.png" alt="Methdad.com" /></p>
+<p><img src="/images/methdad/methdad.png" alt="Methdad.com" /></p>
+
+<br>
+
 
 <!--more-->
 
 
 <p><a href="http://old.methdad.com/">MethDad.com</a></p>
+
+<br>
+
+
+<p><img src="/images/methdad/methdad2.png" alt="Methdad.com" /></p>
+
+<br>
+
 ]]></content>
   </entry>
   
