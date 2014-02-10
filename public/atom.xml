@@ -4,7 +4,7 @@
   <title><![CDATA[NJBiddle]]></title>
   <link href="http://njbiddle.com/atom.xml" rel="self"/>
   <link href="http://njbiddle.com/"/>
-  <updated>2014-02-09T18:27:18-06:00</updated>
+  <updated>2014-02-09T18:30:50-06:00</updated>
   <id>http://njbiddle.com/</id>
   <author>
     <name><![CDATA[NJBiddle]]></name>
@@ -23,7 +23,7 @@
 <br>
 
 
-<p><img src="images/TDF/TDF.png" alt="TDF" /></p>
+<p><img src="http://njbiddle.com/images/TDF/TDF.png" alt="TDF" /></p>
 
 <!--more-->
 
@@ -33,7 +33,7 @@
 <br>
 
 
-<p><img src="images/TDF/TDF2.png" alt="TDF Management" /></p>
+<p><img src="http://njbiddle.com/images/TDF/TDF2.png" alt="TDF Management" /></p>
 
 <br>
 
@@ -43,7 +43,7 @@
 <br>
 
 
-<p><img src="images/TDF/TDF3.png" alt="TDF Heroku" /></p>
+<p><img src="http://njbiddle.com/images/TDF/TDF3.png" alt="TDF Heroku" /></p>
 
 <br>
 
