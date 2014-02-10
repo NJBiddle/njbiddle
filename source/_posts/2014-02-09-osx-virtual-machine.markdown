@@ -3,7 +3,7 @@ layout: post
 title: "OSX Virtual Machine"
 date: 2014-02-09 19:03:17 -0600
 comments: true
-categories: geekery, itadmin
+categories: geekery, it
 ---
 
 Using a spare machine, I've successfully set up a headless OSX VM on intel-based hardware. It's relatively under-powered, but serves my needs as a small file server and iTunes box.
