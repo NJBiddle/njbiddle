@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Design | NJBiddle]]></title>
   <link href="http://njbiddle.com/blog/categories/design/atom.xml" rel="self"/>
   <link href="http://njbiddle.com/"/>
-  <updated>2014-02-09T18:08:43-06:00</updated>
+  <updated>2014-02-09T18:27:18-06:00</updated>
   <id>http://njbiddle.com/</id>
   <author>
     <name><![CDATA[NJBiddle]]></name>
@@ -12,6 +12,45 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Tour De Fun!]]></title>
+    <link href="http://njbiddle.com/blog/2014/02/09/tour-de-fun-splash/"/>
+    <updated>2014-02-09T18:14:03-06:00</updated>
+    <id>http://njbiddle.com/blog/2014/02/09/tour-de-fun-splash</id>
+    <content type="html"><![CDATA[<p><a href="http://tourdefun.net/">Tour De Fun</a> 2014 is quickly approaching, and so is a site redesign. Web/real-life wizard <a href="http://nicinabox.com/">Nic Aitch</a> is helping me build a ruby on rails info app and so far, it&rsquo;s been great.</p>
+
+<br>
+
+
+<p><img src="images/TDF/TDF.png" alt="TDF" /></p>
+
+<!--more-->
+
+
+<p>We&rsquo;re using Active Admin and a gem by Nic called <a href="https://github.com/nicinabox/petrie">Petrie</a> for content management. This lets other users on the Tour De Fun team edit content, bands, venues, and set times.</p>
+
+<br>
+
+
+<p><img src="images/TDF/TDF2.png" alt="TDF Management" /></p>
+
+<br>
+
+
+<p>Hosting is done through <a href="http://heroku.com/">Heroku</a> for simplicity&rsquo;s sake, and managed with git. Track progress through my <a href="http://github.com/NJBiddle/tourdefun">github</a>!</p>
+
+<br>
+
+
+<p><img src="images/TDF/TDF3.png" alt="TDF Heroku" /></p>
+
+<br>
+
+
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Tools I Use: Geektool]]></title>
