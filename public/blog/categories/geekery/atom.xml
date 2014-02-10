@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Geekery | NJBiddle]]></title>
+  <title><![CDATA[Category: Geekery, | NJBiddle]]></title>
   <link href="http://njbiddle.com/blog/categories/geekery/atom.xml" rel="self"/>
   <link href="http://njbiddle.com/"/>
-  <updated>2014-02-09T19:12:58-06:00</updated>
+  <updated>2014-02-09T19:32:28-06:00</updated>
   <id>http://njbiddle.com/</id>
   <author>
     <name><![CDATA[NJBiddle]]></name>
@@ -61,6 +61,53 @@
 
 <br>
 
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Tools I Use: Alfred]]></title>
+    <link href="http://njbiddle.com/blog/2014/02/09/alfred/"/>
+    <updated>2014-02-09T17:59:02-06:00</updated>
+    <id>http://njbiddle.com/blog/2014/02/09/alfred</id>
+    <content type="html"><![CDATA[<p>If you haven&rsquo;t used productivity apps like <a href="http://qsapp.com/">Quicksilver</a>, <a href="http://cooperteam.net/">GnomeDO</a>, etc, you need to start.</p>
+
+<br>
+
+
+<p><img src="/images/alfred/alfred.png" alt="Alfred" /></p>
+
+<!--more-->
+
+
+<p>I rely on <a href="http://www.alfredapp.com/">Alfred</a> to get around my machine quickly and efficiently. Alfred is much more than a simple app launcher. Dig in and experience some of it&rsquo;s more advanced features for yourself!</p>
+
+<br>
+
+
+<p><img src="/images/alfred/alfred2.png" alt="Alfred file browser" /></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Tools I Use: Geektool]]></title>
+    <link href="http://njbiddle.com/blog/2014/02/09/geektool/"/>
+    <updated>2014-02-09T17:31:34-06:00</updated>
+    <id>http://njbiddle.com/blog/2014/02/09/geektool</id>
+    <content type="html"><![CDATA[<p>I recently got into using <a href="http://projects.tynsoe.org/en/geektool/">geektool</a> again. It&rsquo;s great.</p>
+
+<p><img src="/images/geektool/geektool.png" alt="Geektool!" /></p>
+
+<!-- more -->
+
+
+<ol>
+<li>Download and install <a href="http://projects.tynsoe.org/en/geektool/">geektool</a></li>
+<li>Get fun geeklet scripts <a href="http://www.macosxtips.co.uk/geeklets/">here</a></li>
+<li>Load into geektool and party</li>
+</ol>
+
+
+<p><img src="/images/geektool/geektool2.png" alt="Geektool Geeklets" /></p>
 ]]></content>
   </entry>
   
