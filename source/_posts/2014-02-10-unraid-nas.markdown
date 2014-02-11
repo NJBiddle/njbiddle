@@ -16,7 +16,7 @@ One of the main reasons I chose unRAID over alternatives, was being able to run 
 ![Unraid Array](/images/unraid/unraid4.png)
 <br>
 [plexlink]: http://plex.tv/
-unRAID also runs off a USB key, which saves me a SATA port on my motherboard. I'm running unRAID off an old Dell Pentium 4 machine I had laying around, and I've never felt like I'm running out of resources. unRAID is running a handful of media applications, and also acts as a [Plex][plexlink] server.
+unRAID also runs off a USB key, which saves me a SATA port on my motherboard. I'm running unRAID on an old Dell P4 machine I had laying around, and I've never felt like I'm running out of resources. unRAID is running a handful of media applications, and also acts as a [Plex][plexlink] server. Highly recommended if you're into tinkering.
 <br>
 ![Unraid Apps](/images/unraid/unraid3.png)
 <br>
