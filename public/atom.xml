@@ -4,7 +4,7 @@
   <title><![CDATA[NJBiddle]]></title>
   <link href="http://njbiddle.com/atom.xml" rel="self"/>
   <link href="http://njbiddle.com/"/>
-  <updated>2014-02-10T19:48:40-06:00</updated>
+  <updated>2014-02-10T19:54:22-06:00</updated>
   <id>http://njbiddle.com/</id>
   <author>
     <name><![CDATA[NJBiddle]]></name>
@@ -26,6 +26,9 @@
 <p><img src="http://njbiddle.com/images/unraid/unraid.png" alt="Unraid" /></p>
 
 <br>
+
+
+<!--more-->
 
 
 <p>One of the main reasons I chose unRAID over alternatives, was being able to run a JBOD array. If I have a spare disk laying around, whether it&rsquo;s 500GB or 2TB, I can throw it in the unRAID box. I can lose one disk in my array, and still recover data via the parity disk, so it provides the redundancy I need for non-essential data (movies, music, etc).</p>

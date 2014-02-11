@@ -10,6 +10,7 @@ I run an [unRAID][unraidlink] server at home for serving media, TimeMachine back
 <br>
 ![Unraid](/images/unraid/unraid.png)
 <br>
+<!--more-->
 One of the main reasons I chose unRAID over alternatives, was being able to run a JBOD array. If I have a spare disk laying around, whether it's 500GB or 2TB, I can throw it in the unRAID box. I can lose one disk in my array, and still recover data via the parity disk, so it provides the redundancy I need for non-essential data (movies, music, etc).
 <br>
 ![Unraid Array](/images/unraid/unraid4.png)
