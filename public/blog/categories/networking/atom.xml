@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Networking | NJBiddle]]></title>
+  <link href="http://njbiddle.com/blog/categories/networking/atom.xml" rel="self"/>
+  <link href="http://njbiddle.com/"/>
+  <updated>2014-02-15T13:55:46-06:00</updated>
+  <id>http://njbiddle.com/</id>
+  <author>
+    <name><![CDATA[NJBiddle]]></name>
+    <email><![CDATA[nick@njbiddle.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[unRAID Home NAS]]></title>
+    <link href="http://njbiddle.com/blog/2014/02/10/unraid-nas/"/>
+    <updated>2014-02-10T19:27:43-06:00</updated>
+    <id>http://njbiddle.com/blog/2014/02/10/unraid-nas</id>
+    <content type="html"><![CDATA[<p>I run an <a href="http://lime-technology.com/">unRAID</a> server at home for serving media, TimeMachine backups, managing libraries, and pretty much anything else I can throw at it. For being a small (under 500MB) slackware distro, it has huge potential.</p>
+
+<br>
+
+
+<p><img src="/images/unraid/unraid.png" alt="Unraid" /></p>
+
+<br>
+
+
+<!--more-->
+
+
+<p>One of the main reasons I chose unRAID over alternatives, was being able to run a JBOD array. If I have a spare disk laying around, whether it&rsquo;s 500GB or 2TB, I can throw it in the unRAID box. I can lose one disk in my array, and still recover data via the parity disk, so it provides the redundancy I need for non-essential data (movies, music, etc).</p>
+
+<br>
+
+
+<p><img src="/images/unraid/unraid4.png" alt="Unraid Array" /></p>
+
+<br>
+
+
+<p>unRAID also runs off a USB key, which saves me a SATA port on my motherboard. I&rsquo;m running unRAID on an old Dell P4 machine I had laying around, and I&rsquo;ve never felt like I&rsquo;m running out of resources. unRAID is running a handful of media applications, and also acts as a <a href="http://plex.tv/">Plex</a> server. Highly recommended if you&rsquo;re into tinkering.</p>
+
+<br>
+
+
+<p><img src="/images/unraid/unraid3.png" alt="Unraid Apps" /></p>
+
+<br>
+
+]]></content>
+  </entry>
+  
+</feed>

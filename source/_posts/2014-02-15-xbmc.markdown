@@ -3,7 +3,7 @@ layout: post
 title: "XBMC"
 date: 2014-02-15 11:17:02 -0600
 comments: true
-categories: [geekery]
+categories: [Geekery,Home Entertainment]
 ---
 [boxeeurl]: http://www.boxee.tv/
 [plexurl]: http://plexapp.zendesk.com/hc/en-us

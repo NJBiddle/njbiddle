@@ -3,7 +3,7 @@ layout: post
 title: "Tools I use: Alfred"
 date: 2014-02-09 17:59:02 -0600
 comments: true
-categories: [geekery,workflow]
+categories: [Geekery,Workflow]
 ---
 [idquick]: http://qsapp.com/
 [idgnome]: http://cooperteam.net/

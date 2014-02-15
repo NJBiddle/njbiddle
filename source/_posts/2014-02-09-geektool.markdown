@@ -3,7 +3,7 @@ layout: post
 title: "Tools I use: Geektool"
 date: 2014-02-09 17:31:34 -0600
 comments: true
-categories: [geekery,workflow,design]
+categories: [Geekery,Workflow,Design]
 ---
 [idgeektool]: http://projects.tynsoe.org/en/geektool/
 I recently got into using [geektool][idgeektool] again. It's great.
