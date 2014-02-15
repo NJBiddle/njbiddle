@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Workflow | NJBiddle]]></title>
   <link href="http://njbiddle.com/blog/categories/workflow/atom.xml" rel="self"/>
   <link href="http://njbiddle.com/"/>
-  <updated>2014-02-15T13:55:46-06:00</updated>
+  <updated>2014-02-15T14:59:40-06:00</updated>
   <id>http://njbiddle.com/</id>
   <author>
     <name><![CDATA[NJBiddle]]></name>
@@ -12,6 +12,43 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Tools I Use: BTSync]]></title>
+    <link href="http://njbiddle.com/blog/2014/02/15/btsync/"/>
+    <updated>2014-02-15T14:40:24-06:00</updated>
+    <id>http://njbiddle.com/blog/2014/02/15/btsync</id>
+    <content type="html"><![CDATA[<br>
+
+
+<p>Wanting to move away from Dropbox, I tried out <a href="http://www.bittorrent.com/sync/downloads">BTSync</a> as an alternative. Although not a complete replacement, it definitely has its perks.</p>
+
+<br>
+
+
+<p><img src="/images/btsync/btsync.png" alt="BTSync" /></p>
+
+<br>
+
+
+<!--more-->
+
+
+<p>BTSync does have a slackware version available that <a href="http://github.com/overbyrn/UnRAID">Overbyrn</a> has compiled into a unRAID plugin <a href="http://github.com/overbyrn/UnRAID">here</a>. I run this on my box as a server, with my Mac, Nexus, and iPhone as clients to sync random files, ebooks, etc.</p>
+
+<br>
+
+
+<p><img src="/images/btsync/btsync2.png" alt="BTSync" /></p>
+
+<br>
+
+
+<p>My main reason for using BTSync is security. BTSync uses P2P sharing to sync files only between devices with the assigned private security key. No data is moved to foreign servers.</p>
+
+<p>Definitely more secure, but also not widely used. Sharing data with other users or clients requires them to have the BTSync client installed, so it&rsquo;s not the best option for ALL scenarios, but if you&rsquo;re looking to keep directories and files in-sync across multiple devices it fits the bill quite well.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Tools I Use: Alfred]]></title>

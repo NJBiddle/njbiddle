@@ -1,0 +1,22 @@
+---
+layout: post
+title: "Tools I use: BTSync"
+date: 2014-02-15 14:40:24 -0600
+comments: true
+categories: [Geekery,IT,Workflow,Networking]
+---
+<br>
+[btsyncurl]: http://www.bittorrent.com/sync/downloads
+Wanting to move away from Dropbox, I tried out [BTSync][btsyncurl] as an alternative. Although not a complete replacement, it definitely has its perks.
+<br>
+![BTSync](/images/btsync/btsync.png)
+<br>
+<!--more-->
+[btunraidurl]: http://github.com/overbyrn/UnRAID
+BTSync does have a slackware version available that [Overbyrn][btunraidurl] has compiled into a unRAID plugin [here][btunraidurl]. I run this on my box as a server, with my Mac, Nexus, and iPhone as clients to sync random files, ebooks, etc.
+<br>
+![BTSync](/images/btsync/btsync2.png)
+<br>
+My main reason for using BTSync is security. BTSync uses P2P sharing to sync files only between devices with the assigned private security key. No data is moved to foreign servers.
+
+Definitely more secure, but also not widely used. Sharing data with other users or clients requires them to have the BTSync client installed, so it's not the best option for ALL scenarios, but if you're looking to keep directories and files in-sync across multiple devices it fits the bill quite well.
