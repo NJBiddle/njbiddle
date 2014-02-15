@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Geekery | NJBiddle]]></title>
   <link href="http://njbiddle.com/blog/categories/geekery/atom.xml" rel="self"/>
   <link href="http://njbiddle.com/"/>
-  <updated>2014-02-15T11:54:31-06:00</updated>
+  <updated>2014-02-15T13:26:47-06:00</updated>
   <id>http://njbiddle.com/</id>
   <author>
     <name><![CDATA[NJBiddle]]></name>
@@ -12,6 +12,81 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[XBMC]]></title>
+    <link href="http://njbiddle.com/blog/2014/02/15/xbmc/"/>
+    <updated>2014-02-15T11:17:02-06:00</updated>
+    <id>http://njbiddle.com/blog/2014/02/15/xbmc</id>
+    <content type="html"><![CDATA[<p>After going through a number of media center front ends (<a href="http://www.boxee.tv/">Boxee</a>, <a href="http://plexapp.zendesk.com/hc/en-us">Plex</a>, etc), I&rsquo;ve stuck with <a href="http://xbmc.org/">XBMC</a>. It gives me the ability to customize the interface to my liking, run on older hardware, and play nearly anything I can throw at it.</p>
+
+<br>
+
+
+<p><img src="/images/xbmc/xbmc.png" alt="XBMC" /></p>
+
+<br>
+
+
+<!--more-->
+
+
+<p>I&rsquo;m running XBMC on top of a <a href="http://www.ubuntu.com/download">Ubuntu 13</a> install on an older corei3 machine I had laying around. It can output full 1080 resolution without skipping a beat over HDMI.</p>
+
+<br>
+
+
+<p><img src="/images/xbmc/xbmc2.png" alt="XBMC Movies" /></p>
+
+<br>
+
+
+<p>XBMC comes packed with features out of the box, but once you start customizing it&rsquo;s interface you really see where XBMC pulls ahead of other media center solutions.</p>
+
+<br>
+
+
+<p><img src="/images/xbmc/xbmc3.png" alt="XBMC TV" /></p>
+
+<br>
+
+
+<p>You can even run third party plugins and applications inside of XBMC. For instance, I&rsquo;m running apps to stream <a href="">Railscasts</a> videos, Hulu, Soundcloud, etc.</p>
+
+<br>
+
+
+<p><img src="/images/xbmc/xbmc4.png" alt="XBMC rails" /></p>
+
+<br>
+
+
+<p>Although buggy on Ubuntu, you can also run console ROMS out of XBMC&rsquo;s <a href="http://code.google.com/p/romcollectionbrowser/">ROM Collection Browser</a>.</p>
+
+<br>
+
+
+<p><img src="/images/xbmc/xbmc5.png" alt="XBMC Roms" /></p>
+
+<br>
+
+
+<p>Finding an interface that works for you is important as well. I&rsquo;m running the <a href="http://github.com/niamu/skin.nbox">nbox theme</a> by <a href="http://github.com/niamu">Niamu</a>, slightly customized to show me just what I need on screen, without added bloat or information.</p>
+
+<br>
+
+
+<p><img src="/images/xbmc/xbmc6.png" alt="XBMC nbox" /></p>
+
+<br>
+
+
+<br>
+
+
+<p>Having trouble installing XBMC, or have questions? Shoot me a comment below.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Windows 8.1 on VirtualBox]]></title>
