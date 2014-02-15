@@ -1,0 +1,42 @@
+---
+layout: post
+title: "XBMC"
+date: 2014-02-15 11:17:02 -0600
+comments: true
+categories: 
+---
+[boxeeurl]: http://www.boxee.tv/
+[plexurl]: http://plexapp.zendesk.com/hc/en-us
+[xbmcurl]: http://xbmc.org/
+After going through a number of media center front ends ([Boxee][boxeeurl], [Plex][plexurl], etc), I've stuck with [XBMC][xbmcurl]. It gives me the ability to customize the interface to my liking, run on older hardware, and play nearly anything I can throw at it.
+<br>
+![XBMC](/images/xbmc/xbmc.png)
+<br>
+<!--more-->
+[ubuntuurl]: http://www.ubuntu.com/download
+I'm running XBMC on top of a [Ubuntu 13][ubuntuurl] install on an older corei3 machine I had laying around. It can output full 1080 resolution without skipping a beat over HDMI.
+<br>
+![XBMC Movies](/images/xbmc/xbmc2.png)
+<br>
+XBMC comes packed with features out of the box, but once you start customizing it's interface you really see where XBMC pulls ahead of other media center solutions.
+<br>
+![XBMC TV](/images/xbmc/xbmc3.png)
+<br>
+[railscastsurl]:
+You can even run third party plugins and applications inside of XBMC. For instance, I'm running apps to stream [Railscasts][railscastsurl] videos, Hulu, Soundcloud, etc.
+<br>
+![XBMC rails](/images/xbmc/xbmc4.png)
+<br>
+[romurl]: http://code.google.com/p/romcollectionbrowser/
+Although buggy on Ubuntu, you can also run console ROMS out of XBMC's [ROM Collection Browser][romurl].
+<br>
+![XBMC Roms](/images/xbmc/xbmc5.png)
+<br>
+[nboxurl]: http://github.com/niamu/skin.nbox
+[niamuurl]: http://github.com/niamu
+Finding an interface that works for you is important as well. I'm running the [nbox theme][nboxurl] by [Niamu][niamuurl], slightly customized to show me just what I need on screen, without added bloat or information.
+<br>
+![XBMC nbox](/images/xbmc/xbmc6.png)
+<br>
+<br>
+Having trouble installing XBMC, or have questions? Shoot me a comment below.
