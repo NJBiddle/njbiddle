@@ -3,7 +3,7 @@ layout: post
 title: "MethDad.com"
 date: 2014-02-09 18:36:02 -0600
 comments: true
-categories: web, design
+categories: [web,design]
 ---
 [danny]: http://dannymcclain.tumblr.com/
 [methdad]: https://soundcloud.com/methdad/

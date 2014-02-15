@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Geekery | NJBiddle]]></title>
   <link href="http://njbiddle.com/blog/categories/geekery/atom.xml" rel="self"/>
   <link href="http://njbiddle.com/"/>
-  <updated>2014-02-15T13:26:47-06:00</updated>
+  <updated>2014-02-15T13:52:44-06:00</updated>
   <id>http://njbiddle.com/</id>
   <author>
     <name><![CDATA[NJBiddle]]></name>
@@ -89,6 +89,46 @@
   </entry>
   
   <entry>
+    <title type="html"><![CDATA[unRAID Home NAS]]></title>
+    <link href="http://njbiddle.com/blog/2014/02/10/unraid-nas/"/>
+    <updated>2014-02-10T19:27:43-06:00</updated>
+    <id>http://njbiddle.com/blog/2014/02/10/unraid-nas</id>
+    <content type="html"><![CDATA[<p>I run an <a href="http://lime-technology.com/">unRAID</a> server at home for serving media, TimeMachine backups, managing libraries, and pretty much anything else I can throw at it. For being a small (under 500MB) slackware distro, it has huge potential.</p>
+
+<br>
+
+
+<p><img src="/images/unraid/unraid.png" alt="Unraid" /></p>
+
+<br>
+
+
+<!--more-->
+
+
+<p>One of the main reasons I chose unRAID over alternatives, was being able to run a JBOD array. If I have a spare disk laying around, whether it&rsquo;s 500GB or 2TB, I can throw it in the unRAID box. I can lose one disk in my array, and still recover data via the parity disk, so it provides the redundancy I need for non-essential data (movies, music, etc).</p>
+
+<br>
+
+
+<p><img src="/images/unraid/unraid4.png" alt="Unraid Array" /></p>
+
+<br>
+
+
+<p>unRAID also runs off a USB key, which saves me a SATA port on my motherboard. I&rsquo;m running unRAID on an old Dell P4 machine I had laying around, and I&rsquo;ve never felt like I&rsquo;m running out of resources. unRAID is running a handful of media applications, and also acts as a <a href="http://plex.tv/">Plex</a> server. Highly recommended if you&rsquo;re into tinkering.</p>
+
+<br>
+
+
+<p><img src="/images/unraid/unraid3.png" alt="Unraid Apps" /></p>
+
+<br>
+
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Windows 8.1 on VirtualBox]]></title>
     <link href="http://njbiddle.com/blog/2014/02/10/windows-8-dot-1-on-virtualbox/"/>
     <updated>2014-02-10T14:11:32-06:00</updated>
@@ -143,6 +183,81 @@
 
 <br>
 
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[OSX Virtual Machine]]></title>
+    <link href="http://njbiddle.com/blog/2014/02/09/osx-virtual-machine/"/>
+    <updated>2014-02-09T19:03:17-06:00</updated>
+    <id>http://njbiddle.com/blog/2014/02/09/osx-virtual-machine</id>
+    <content type="html"><![CDATA[<p>Using a spare machine, I&rsquo;ve successfully set up a headless OSX VM on intel-based hardware. It&rsquo;s relatively under-powered, but serves my needs as a small file server and iTunes box.</p>
+
+<br>
+
+
+<p><img src="/images/osxvm/osxvm4.png" alt="OSX VM" /></p>
+
+<br>
+
+
+<!--more-->
+
+
+<p>This was accomplished by running <a href="http://vmwarelearning.com/esxi/">ESXi5.1</a> patched with <a href="http://www.insanelymac.com/forum/topic/267296-esxi-5-mac-os-x-unlocker/">Donk&rsquo;s OSX unlocker</a>. After patching, you&rsquo;ll need to upload the OSX installation .dmg and boot to ISO.</p>
+
+<br>
+
+
+<p><img src="/images/osxvm/osxvm2.png" alt="OSX VM2" /></p>
+
+<br>
+
+
+<p>Install OSX to your assigned datastore and your VM should boot right up. Originally I did this install with osx 10.8, but have since updated to 10.9 Mavericks. For the upgrade:</p>
+
+<ol>
+<li>Snapshot the VM</li>
+<li>Run the upgrade as normal</li>
+<li>Reboot when prompted</li>
+<li>Success!</li>
+<li>Remove that snapshot</li>
+</ol>
+
+
+<p>Assign USB devices, more ram, cores, etc for added functionality and performance.</p>
+
+<br>
+
+
+<p><img src="/images/osxvm/osxvm3.png" alt="OSX VM3" /></p>
+
+<br>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Tools I Use: Alfred]]></title>
+    <link href="http://njbiddle.com/blog/2014/02/09/alfred/"/>
+    <updated>2014-02-09T17:59:02-06:00</updated>
+    <id>http://njbiddle.com/blog/2014/02/09/alfred</id>
+    <content type="html"><![CDATA[<p>If you haven&rsquo;t used productivity apps like <a href="http://qsapp.com/">Quicksilver</a>, <a href="http://cooperteam.net/">GnomeDO</a>, etc, you need to start.</p>
+
+<br>
+
+
+<p><img src="/images/alfred/alfred.png" alt="Alfred" /></p>
+
+<!--more-->
+
+
+<p>I rely on <a href="http://www.alfredapp.com/">Alfred</a> to get around my machine quickly and efficiently. Alfred is much more than a simple app launcher. Dig in and experience some of it&rsquo;s more advanced features for yourself!</p>
+
+<br>
+
+
+<p><img src="/images/alfred/alfred2.png" alt="Alfred file browser" /></p>
 ]]></content>
   </entry>
   

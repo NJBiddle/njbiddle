@@ -3,7 +3,7 @@ layout: post
 title: "Windows 8.1 on VirtualBox"
 date: 2014-02-10 14:11:32 -0600
 comments: true
-categories: it, geekery
+categories: [it,geekery]
 ---
 [idvirtualbox]: http://virtualbox.org
 Running multiple environments is critical for me both in IT and web development. I'm currently using [virtualbox][idvirtualbox] on my Mac to virtualize a windows 8.1 environment (I know, I know...). Click through for a quick walkthrough.

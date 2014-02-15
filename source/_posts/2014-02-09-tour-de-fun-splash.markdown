@@ -3,7 +3,7 @@ layout: post
 title: "Tour De Fun!"
 date: 2014-02-09 18:14:03 -0600
 comments: true
-categories: web, design
+categories: [web,design]
 ---
 [nicaitch]: http://nicinabox.com/
 [tdf]: http://tourdefun.net/

@@ -3,7 +3,7 @@ layout: post
 title: "unRAID Home NAS"
 date: 2014-02-10 19:27:43 -0600
 comments: true
-categories: geekery, it
+categories: [geekery,it]
 ---
 [unraidlink]: http://lime-technology.com/
 I run an [unRAID][unraidlink] server at home for serving media, TimeMachine backups, managing libraries, and pretty much anything else I can throw at it. For being a small (under 500MB) slackware distro, it has huge potential.
