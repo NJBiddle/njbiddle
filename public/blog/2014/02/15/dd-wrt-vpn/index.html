@@ -5,11 +5,11 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>XBMC - NJBiddle</title>
+	<title>DD-WRT VPN - NJBiddle</title>
 	<meta name="author" content="NJBiddle">
 
 	
-	<meta name="description" content="XBMC After going through a number of media center front ends (Boxee, Plex, etc), I&rsquo;ve stuck with XBMC. It gives me the ability to customize &hellip;">
+	<meta name="description" content="DD-WRT VPN If you&rsquo;re not already using a VPN, you need to start. Securing your traffic while on public networks and creating a simple point of &hellip;">
 	
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +19,7 @@
 
 	<link href="" rel="alternate" title="NJBiddle" type="application/atom+xml">
 	
-	<link rel="canonical" href="http://njbiddle.com/blog/2014/02/15/xbmc/">
+	<link rel="canonical" href="http://njbiddle.com/blog/2014/02/15/dd-wrt-vpn/">
 	<link href="/favicon.png" rel="shortcut icon">
 	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
 	<link href="/stylesheets/font-awesome.min.css" media="screen, projection" rel="stylesheet" type="text/css">
@@ -127,13 +127,16 @@
 			
 			<div class="mid-col-container">
 				<div id="content" class="inner"><article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-	<h1 class="title" itemprop="name">XBMC</h1>
-	<div class="entry-content" itemprop="articleBody"><p>After going through a number of media center front ends (<a href="http://www.boxee.tv/">Boxee</a>, <a href="http://plexapp.zendesk.com/hc/en-us">Plex</a>, etc), I&rsquo;ve stuck with <a href="http://xbmc.org/">XBMC</a>. It gives me the ability to customize the interface to my liking, run on older hardware, and play nearly anything I can throw at it.</p>
+	<h1 class="title" itemprop="name">DD-WRT VPN</h1>
+	<div class="entry-content" itemprop="articleBody"><br>
+
+
+<p>If you&rsquo;re not already using a VPN, you need to start. Securing your traffic while on public networks and creating a simple point of access to your home network can be accomplished quickly if you&rsquo;re already using <a href="http://www.dd-wrt.com/site/index">DD-WRT</a>.</p>
 
 <br>
 
 
-<p><img src="/images/xbmc/xbmc.png" alt="XBMC" /></p>
+<p><img src="/images/vpn/vpn4.png" alt="DD-WRT VPN" /></p>
 
 <br>
 
@@ -141,64 +144,39 @@
 <!--more-->
 
 
-<p>I&rsquo;m running XBMC on top of a <a href="http://www.ubuntu.com/download">Ubuntu 13</a> install on an older corei3 machine I had laying around. It can output full 1080 resolution without skipping a beat over HDMI.</p>
-
-<p>Install:</p>
-
-<p><code>$ sudo add-apt-repository ppa:team-xbmc/ppa &amp;&amp; apt-get update &amp;&amp; apt-get install xbmc</code></p>
+<p>First, start running <a href="http://www.dd-wrt.com/site/index">DD-WRT</a> or <a href="http://www.polarcloud.com/tomato">Tomato</a> on your router at home. After you&rsquo;re up and running, configuring the VPN is easy. Head over to Services > VPN, and enter your config options as seen below:</p>
 
 <br>
 
 
-<p><img src="/images/xbmc/xbmc2.png" alt="XBMC Movies" /></p>
+<p><img src="/images/vpn/vpn.png" alt="DD-WRT config" /></p>
 
 <br>
 
 
-<p>XBMC comes packed with features out of the box, but once you start customizing it&rsquo;s interface you really see where XBMC pulls ahead of other media center solutions.</p>
+<p>NOTE: Be sure to use correct formatting in the username/password field</p>
+
+<p><code> username * password * </code></p>
+
+<p>Don&rsquo;t forget to enable PPTP VPN in Security > VPN Passthrough</p>
 
 <br>
 
 
-<p><img src="/images/xbmc/xbmc3.png" alt="XBMC TV" /></p>
+<p><img src="/images/vpn/vpn2.png" alt="DD-WRT VPN passthrough" /></p>
 
 <br>
 
 
-<p>You can even run third party plugins and applications inside of XBMC. For instance, I&rsquo;m running apps to stream <a href="">Railscasts</a> videos, Hulu, Soundcloud, etc.</p>
+<p>Configure the VPN client-side, and you&rsquo;ll be good to go. If you need help, drop a line below.</p>
 
 <br>
 
 
-<p><img src="/images/xbmc/xbmc4.png" alt="XBMC rails" /></p>
+<p><img src="/images/vpn/vpn3.png" alt="VPN Access" /></p>
 
 <br>
 
-
-<p>Although buggy on Ubuntu, you can also run console ROMS out of XBMC&rsquo;s <a href="http://code.google.com/p/romcollectionbrowser/">ROM Collection Browser</a>.</p>
-
-<br>
-
-
-<p><img src="/images/xbmc/xbmc5.png" alt="XBMC Roms" /></p>
-
-<br>
-
-
-<p>Finding an interface that works for you is important as well. I&rsquo;m running the <a href="http://github.com/niamu/skin.nbox">nbox theme</a> by <a href="http://github.com/niamu">Niamu</a>, slightly customized to show me just what I need on screen, without added bloat or information.</p>
-
-<br>
-
-
-<p><img src="/images/xbmc/xbmc6.png" alt="XBMC nbox" /></p>
-
-<br>
-
-
-<br>
-
-
-<p>Having trouble installing XBMC, or have questions? Shoot me a comment below.</p>
 </div>
 
 </article>
@@ -237,8 +215,8 @@ Theme: <a href="http://shashankmehta.in/archive/2012/greyshade.html">Greyshade</
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://njbiddle.com/blog/2014/02/15/xbmc/';
-        var disqus_url = 'http://njbiddle.com/blog/2014/02/15/xbmc/';
+        var disqus_identifier = 'http://njbiddle.com/blog/2014/02/15/dd-wrt-vpn/';
+        var disqus_url = 'http://njbiddle.com/blog/2014/02/15/dd-wrt-vpn/';
         var disqus_script = 'embed.js';
       
     (function () {

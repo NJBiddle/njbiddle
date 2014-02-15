@@ -1,0 +1,31 @@
+---
+layout: post
+title: "DD-WRT VPN"
+date: 2014-02-15 15:26:37 -0600
+comments: true
+categories: [Networking,IT]
+---
+<br>
+If you're not already using a VPN, you need to start. Securing your traffic while on public networks and creating a simple point of access to your home network can be accomplished quickly if you're already using [DD-WRT][ddwrturl].
+<br>
+![DD-WRT VPN](/images/vpn/vpn4.png)
+<br>
+<!--more-->
+[ddwrturl]: http://www.dd-wrt.com/site/index
+[tomatourl]: http://www.polarcloud.com/tomato
+First, start running [DD-WRT][ddwrturl] or [Tomato][tomatourl] on your router at home. After you're up and running, configuring the VPN is easy. Head over to Services > VPN, and enter your config options as seen below:
+<br>
+![DD-WRT config](/images/vpn/vpn.png)
+<br>
+NOTE: Be sure to use correct formatting in the username/password field
+
+<code> username * password * </code>
+
+Don't forget to enable PPTP VPN in Security > VPN Passthrough
+<br>
+![DD-WRT VPN passthrough](/images/vpn/vpn2.png)
+<br>
+Configure the VPN client-side, and you'll be good to go. If you need help, drop a line below.
+<br>
+![VPN Access](/images/vpn/vpn3.png)
+<br>

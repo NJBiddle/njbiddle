@@ -15,6 +15,10 @@ After going through a number of media center front ends ([Boxee][boxeeurl], [Ple
 <!--more-->
 [ubuntuurl]: http://www.ubuntu.com/download
 I'm running XBMC on top of a [Ubuntu 13][ubuntuurl] install on an older corei3 machine I had laying around. It can output full 1080 resolution without skipping a beat over HDMI.
+
+Install:
+
+<code>$ sudo add-apt-repository ppa:team-xbmc/ppa && apt-get update && apt-get install xbmc</code>
 <br>
 ![XBMC Movies](/images/xbmc/xbmc2.png)
 <br>

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Geekery | NJBiddle]]></title>
   <link href="http://njbiddle.com/blog/categories/geekery/atom.xml" rel="self"/>
   <link href="http://njbiddle.com/"/>
-  <updated>2014-02-15T14:59:40-06:00</updated>
+  <updated>2014-02-15T15:40:18-06:00</updated>
   <id>http://njbiddle.com/</id>
   <author>
     <name><![CDATA[NJBiddle]]></name>
@@ -69,6 +69,10 @@
 
 
 <p>I&rsquo;m running XBMC on top of a <a href="http://www.ubuntu.com/download">Ubuntu 13</a> install on an older corei3 machine I had laying around. It can output full 1080 resolution without skipping a beat over HDMI.</p>
+
+<p>Install:</p>
+
+<p><code>$ sudo add-apt-repository ppa:team-xbmc/ppa &amp;&amp; apt-get update &amp;&amp; apt-get install xbmc</code></p>
 
 <br>
 

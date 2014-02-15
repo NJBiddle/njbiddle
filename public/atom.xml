@@ -4,7 +4,7 @@
   <title><![CDATA[NJBiddle]]></title>
   <link href="http://njbiddle.com/atom.xml" rel="self"/>
   <link href="http://njbiddle.com/"/>
-  <updated>2014-02-15T14:59:40-06:00</updated>
+  <updated>2014-02-15T15:40:18-06:00</updated>
   <id>http://njbiddle.com/</id>
   <author>
     <name><![CDATA[NJBiddle]]></name>
@@ -12,6 +12,63 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[DD-WRT VPN]]></title>
+    <link href="http://njbiddle.com/blog/2014/02/15/dd-wrt-vpn/"/>
+    <updated>2014-02-15T15:26:37-06:00</updated>
+    <id>http://njbiddle.com/blog/2014/02/15/dd-wrt-vpn</id>
+    <content type="html"><![CDATA[<br>
+
+
+<p>If you&rsquo;re not already using a VPN, you need to start. Securing your traffic while on public networks and creating a simple point of access to your home network can be accomplished quickly if you&rsquo;re already using <a href="http://www.dd-wrt.com/site/index">DD-WRT</a>.</p>
+
+<br>
+
+
+<p><img src="http://njbiddle.com/images/vpn/vpn4.png" alt="DD-WRT VPN" /></p>
+
+<br>
+
+
+<!--more-->
+
+
+<p>First, start running <a href="http://www.dd-wrt.com/site/index">DD-WRT</a> or <a href="http://www.polarcloud.com/tomato">Tomato</a> on your router at home. After you&rsquo;re up and running, configuring the VPN is easy. Head over to Services > VPN, and enter your config options as seen below:</p>
+
+<br>
+
+
+<p><img src="http://njbiddle.com/images/vpn/vpn.png" alt="DD-WRT config" /></p>
+
+<br>
+
+
+<p>NOTE: Be sure to use correct formatting in the username/password field</p>
+
+<p><code> username * password * </code></p>
+
+<p>Don&rsquo;t forget to enable PPTP VPN in Security > VPN Passthrough</p>
+
+<br>
+
+
+<p><img src="http://njbiddle.com/images/vpn/vpn2.png" alt="DD-WRT VPN passthrough" /></p>
+
+<br>
+
+
+<p>Configure the VPN client-side, and you&rsquo;ll be good to go. If you need help, drop a line below.</p>
+
+<br>
+
+
+<p><img src="http://njbiddle.com/images/vpn/vpn3.png" alt="VPN Access" /></p>
+
+<br>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Tools I use: BTSync]]></title>
@@ -69,6 +126,10 @@
 
 
 <p>I&rsquo;m running XBMC on top of a <a href="http://www.ubuntu.com/download">Ubuntu 13</a> install on an older corei3 machine I had laying around. It can output full 1080 resolution without skipping a beat over HDMI.</p>
+
+<p>Install:</p>
+
+<p><code>$ sudo add-apt-repository ppa:team-xbmc/ppa &amp;&amp; apt-get update &amp;&amp; apt-get install xbmc</code></p>
 
 <br>
 
