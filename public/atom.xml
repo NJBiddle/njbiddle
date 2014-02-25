@@ -4,7 +4,7 @@
   <title><![CDATA[NJBiddle]]></title>
   <link href="http://njbiddle.com/atom.xml" rel="self"/>
   <link href="http://njbiddle.com/"/>
-  <updated>2014-02-15T15:40:18-06:00</updated>
+  <updated>2014-02-25T12:37:54-06:00</updated>
   <id>http://njbiddle.com/</id>
   <author>
     <name><![CDATA[NJBiddle]]></name>
@@ -12,6 +12,51 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[GitLab Server]]></title>
+    <link href="http://njbiddle.com/blog/2014/02/25/gitlab-server/"/>
+    <updated>2014-02-25T12:19:21-06:00</updated>
+    <id>http://njbiddle.com/blog/2014/02/25/gitlab-server</id>
+    <content type="html"><![CDATA[<br>
+
+
+<p>Recently I had the opportunity to install, configure, and work off of a new <a href="http://www.gitlab.com/">Gitlab</a> installation in our office. We&rsquo;re slowly building a design and development team, and needed a solution for code versioning and project management.</p>
+
+<br>
+
+
+<p><img src="http://njbiddle.com/images/gitlab/gitlab.png" alt="GitLab" /></p>
+
+<br>
+
+
+<!--more-->
+
+
+<p>Installation took roughly 2 hours, and Gitlab provides a very detailed walkthrough <a href="http://gitlab.com/gitlab-org/gitlab-ci/blob/master/doc/install/installation.md">here</a> for Ubuntu and Deb. I&rsquo;m running this on a Ubuntu 12.04 VM locally in our office, and haven&rsquo;t had any real issues with it besides some complications with email flow. When running email through an exchange server like we are at the office, some extra tweaks are needed to the config files and exch server.</p>
+
+<p>Once Gitlab is installed and your SSH keys are set up properly, it functions nearly exactly like github does. Creating projects, cloning repos, and creating user accounts is a breeze.</p>
+
+<br>
+
+
+<p><img src="http://njbiddle.com/images/gitlab/gitlab2.png" alt="Gitlab New Project" /></p>
+
+<br>
+
+
+<p>Having trouble in Gitlab? Be sure to check the logs tabs to see what&rsquo;s going on.</p>
+
+<br>
+
+
+<p><img src="http://njbiddle.com/images/gitlab/gitlab3.png" alt="Gitlab Logs" /></p>
+
+<br>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[DD-WRT VPN]]></title>

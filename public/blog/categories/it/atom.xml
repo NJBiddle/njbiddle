@@ -4,7 +4,7 @@
   <title><![CDATA[Category: IT | NJBiddle]]></title>
   <link href="http://njbiddle.com/blog/categories/it/atom.xml" rel="self"/>
   <link href="http://njbiddle.com/"/>
-  <updated>2014-02-15T15:40:18-06:00</updated>
+  <updated>2014-02-25T12:37:54-06:00</updated>
   <id>http://njbiddle.com/</id>
   <author>
     <name><![CDATA[NJBiddle]]></name>
@@ -12,6 +12,51 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[GitLab Server]]></title>
+    <link href="http://njbiddle.com/blog/2014/02/25/gitlab-server/"/>
+    <updated>2014-02-25T12:19:21-06:00</updated>
+    <id>http://njbiddle.com/blog/2014/02/25/gitlab-server</id>
+    <content type="html"><![CDATA[<br>
+
+
+<p>Recently I had the opportunity to install, configure, and work off of a new <a href="http://www.gitlab.com/">Gitlab</a> installation in our office. We&rsquo;re slowly building a design and development team, and needed a solution for code versioning and project management.</p>
+
+<br>
+
+
+<p><img src="/images/gitlab/gitlab.png" alt="GitLab" /></p>
+
+<br>
+
+
+<!--more-->
+
+
+<p>Installation took roughly 2 hours, and Gitlab provides a very detailed walkthrough <a href="http://gitlab.com/gitlab-org/gitlab-ci/blob/master/doc/install/installation.md">here</a> for Ubuntu and Deb. I&rsquo;m running this on a Ubuntu 12.04 VM locally in our office, and haven&rsquo;t had any real issues with it besides some complications with email flow. When running email through an exchange server like we are at the office, some extra tweaks are needed to the config files and exch server.</p>
+
+<p>Once Gitlab is installed and your SSH keys are set up properly, it functions nearly exactly like github does. Creating projects, cloning repos, and creating user accounts is a breeze.</p>
+
+<br>
+
+
+<p><img src="/images/gitlab/gitlab2.png" alt="Gitlab New Project" /></p>
+
+<br>
+
+
+<p>Having trouble in Gitlab? Be sure to check the logs tabs to see what&rsquo;s going on.</p>
+
+<br>
+
+
+<p><img src="/images/gitlab/gitlab3.png" alt="Gitlab Logs" /></p>
+
+<br>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[DD-WRT VPN]]></title>
@@ -199,57 +244,6 @@
 
 
 <p><img src="/images/win8vm/win8vm3.png" alt="chipset settings" /></p>
-
-<br>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[OSX Virtual Machine]]></title>
-    <link href="http://njbiddle.com/blog/2014/02/09/osx-virtual-machine/"/>
-    <updated>2014-02-09T19:03:17-06:00</updated>
-    <id>http://njbiddle.com/blog/2014/02/09/osx-virtual-machine</id>
-    <content type="html"><![CDATA[<p>Using a spare machine, I&rsquo;ve successfully set up a headless OSX VM on intel-based hardware. It&rsquo;s relatively under-powered, but serves my needs as a small file server and iTunes box.</p>
-
-<br>
-
-
-<p><img src="/images/osxvm/osxvm4.png" alt="OSX VM" /></p>
-
-<br>
-
-
-<!--more-->
-
-
-<p>This was accomplished by running <a href="http://vmwarelearning.com/esxi/">ESXi5.1</a> patched with <a href="http://www.insanelymac.com/forum/topic/267296-esxi-5-mac-os-x-unlocker/">Donk&rsquo;s OSX unlocker</a>. After patching, you&rsquo;ll need to upload the OSX installation .dmg and boot to ISO.</p>
-
-<br>
-
-
-<p><img src="/images/osxvm/osxvm2.png" alt="OSX VM2" /></p>
-
-<br>
-
-
-<p>Install OSX to your assigned datastore and your VM should boot right up. Originally I did this install with osx 10.8, but have since updated to 10.9 Mavericks. For the upgrade:</p>
-
-<ol>
-<li>Snapshot the VM</li>
-<li>Run the upgrade as normal</li>
-<li>Reboot when prompted</li>
-<li>Success!</li>
-<li>Remove that snapshot</li>
-</ol>
-
-
-<p>Assign USB devices, more ram, cores, etc for added functionality and performance.</p>
-
-<br>
-
-
-<p><img src="/images/osxvm/osxvm3.png" alt="OSX VM3" /></p>
 
 <br>
 
